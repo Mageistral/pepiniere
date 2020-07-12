@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'Indie Flower Regular';
+    src: url('/fonts/IndieFlower-webfont.woff') format('woff'),
+         url('IndieFlower-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Indie Flower Regular';
+    font-size: 120%;
+}
+
+@media (min-width: 992px) {
+    /* header */
+    header {
+        text-align: center;
+        background-color: mintcream;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        padding-bottom: 2rem;
+    }
+
+    header img {
+        vertical-align: bottom;
+    }
+
+    header > h1 {
+        display: inline;
+        font-size: 500%;
+        margin: 1rem;
+    }
+    header a, header a:hover {
+        color: green;
+        text-decoration: none;
+    }
+
+    header > img:nth-of-type(1), header > img:nth-of-type(6) {
+        display: inline-block;
+        height: 80px;
+    }
+    header > img:nth-of-type(2), header > img:nth-of-type(5) {
+        display: inline-block;
+        height: 120px;
+    }
+    header > img:nth-of-type(3), header > img:nth-of-type(4) {
+        display: inline-block;
+        height: 160px;
+    }
+
+    /* Barre de navigation des fruits */
+    .fruitsbar {
+        background-color: mintcream;
+    }
+    .fruitsbar .nav-item img {
+        width:  50px;
+        height: 50px;
+        margin-top: 5px;
+    }
+    .fruitsbar .nav-item:hover, .fruitsbar .current-item {
+        background-color: rgb(30, 110, 30);
+        border-radius: 5px;
+    }
+    .fruitsbar .nav-item:hover a, .fruitsbar .current-item a {
+        color: mintcream ;
+    }
+    .fruitsbar a:hover {
+        text-decoration: none;
+    }
+    /* FIN barre de navigation des fruits */
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+        
+    /* Set gray background color and 100% height */
+    .sidenav {
+        padding-top: 20px;
+        background-color: mintcream;
+        height: 100%;
+    }
+
+    .sidenav .card {
+        border: 1px solid green;
+        border-collapse: collapse;
+        margin-bottom: 1em;
+    }
+    .sidenav .card-text-filter .card-body {
+        padding-bottom: 10px;
+    }
+    .sidenav .card-header {
+        padding-top: 4px;
+        padding-bottom: 0px;
+        font-size: 120%;
+        font-weight: bold;
+        margin: 0;
+        border-bottom: 1px solid green;
+        color: green;
+        line-height: 1.2;
+    }
+    .sidenav .card-body {
+        padding: 10px;
+        padding-bottom: 0;
+    }
+
+    .sidenav .filter-in-use {
+        background-color: rgb(210, 255, 210);
+        border-radius: 10px;
+    }
+    .sidenav .form-filter {
+        padding-bottom: 40px;
+        border-bottom: lightgreen dotted 1px;
+        margin-bottom: 10px;
+    }
+    .sidenav .form-filter:last-of-type {
+        border-bottom: none;
+    }
+
+    .sidenav .form-filter label {
+        margin-bottom: 0px;
+    }
+
+    .content {
+        min-height: 200px;
+        margin-top: 1rem;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+
+    .content-intro {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-header {
+        background-color: honeydew;
+        color: black;
+    }
+
+    .rootstock {
+        width: 14rem;
+        line-height: 1.1;
+        margin: 5px;
+        min-height: 265px;
+    }
+    .rootstock > .card-body {
+        padding-left: 15px;
+        padding-top: 7px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+    }
+    .rootstock > .card-body .la {
+        font-size: 110%;
+        margin-top: -3px;
+    }
+
+    .rootstock > .card-body .row > div {
+        padding: 5px;
+    }
+    .rootstock .card-header {
+        padding: 5px 5px 3px 5px;
+    }
+    .rootstock > .card-header .latin-name {
+        float: right;
+    }
+
+    .rootstock .spec-category .card-header {
+        background-color: mintcream;
+    }
+    .rootstock .spec-category .card-body {
+        padding: 5px;
+    }
+    .rootstock .spec-category {
+        margin-right: 8px;
+    }
+    .rootstock .spec-category .spec-name {
+        font-size: 90%;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+    }
+    footer .mention {
+        font-size: 90%;
+    }
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;} 
+}

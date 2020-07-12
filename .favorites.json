@@ -1,0 +1,26 @@
+[
+    {
+        "type": "Directory",
+        "name": "/var/www/pepiniere/config",
+        "parent_id": null,
+        "workspaceRoot": "/var/www/pepiniere",
+        "workspacePath": "config",
+        "id": "KBxPUpYZoSjhumqG"
+    },
+    {
+        "type": "Directory",
+        "name": "/var/www/pepiniere/resources/lang",
+        "parent_id": null,
+        "workspaceRoot": "/var/www/pepiniere",
+        "workspacePath": "resources/lang",
+        "id": "iSMR7eLuxOgQhVKd"
+    },
+    {
+        "type": "Directory",
+        "name": "/var/www/pepiniere/database/migrations",
+        "parent_id": null,
+        "workspaceRoot": "/var/www/pepiniere",
+        "workspacePath": "database/migrations",
+        "id": "aiNv1zn7phkrfJwd"
+    }
+]
