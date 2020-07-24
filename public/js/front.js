@@ -23,7 +23,7 @@ $(document).ready(function() {
     });
 
     $('#i-filter-text').on('input', function(e) {
-        var divs = $('.content .rootstock .card-header');
+        var divs = $('.content .rootstock > .card-header');
         var reFilter = new RegExp($(e.target).val(),"gi");
         for (var i=0; i < divs.length ; i++) {
             if ($(divs.get(i)).text().match(reFilter)) {
