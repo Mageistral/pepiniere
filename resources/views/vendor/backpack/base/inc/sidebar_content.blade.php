@@ -21,6 +21,6 @@
 </li>
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('rootstock') }}'><i class='nav-icon la la-pagelines'></i> {{ __('models.rootstocks.plural') }}</a></li>
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('developer') }}'><i class='nav-icon la la-user-nurse'></i> {{ __('models.developers.plural') }}</a></li>
-<li class='nav-item'><a class='nav-link' href='{{ backpack_url('rootstocksVigours') }}'><i class='nav-icon la la-question'></i> {{ __('models.rootstocks_vigours.plural') }}</a></li>
+<li class='nav-item'><a class='nav-link' href='{{ backpack_url('rootstocksVigours') }}'><i class='nav-icon la la-sort-amount-up'></i> {{ __('models.rootstocks_vigours.plural') }}</a></li>
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('rootstockSpecificityLevel') }}'><i class='nav-icon la la-cogs'></i> {{ __('models.rootstocks_specificities_levels.plural') }}</a></li>
 <li class='nav-item'><a class='nav-link' href='{{ backpack_url('variety') }}'><i class='nav-icon la la-question'></i> Varieties</a></li>
